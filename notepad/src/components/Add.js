@@ -18,7 +18,7 @@ const Add = ({handleAdd}) =>{
         handleAdd(noteText, noteTitle, noteColor)
         setNoteText('')
         setNoteTitle('')
-        setNoteColor('#000')
+        setNoteColor('#FEBBCC')
     }
     return(
     <div className="note new">
