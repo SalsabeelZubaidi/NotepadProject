@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.note{
+  background-color: #FEBBCC;
+  border-radius: 10px;
+  padding:1rem;
+  min-height:170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  white-space: pre-wrap;
+}
+
+.noteFotter{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notesList{
+  display: grid;
+  grid-gap:1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  margin-top: 30px;
+}
+
+.container{
+  max-width:950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right:15px;
+  padding-left: 15px;
+}
+.note.new{
+  background-color: #FEBBCC;
+}
+
+textarea{
+  border: none;
+  resize: none;
+  background-color: #FEBBCC;
+}
+textarea:focus{
+  outline: none;
+}
+
+.savebtn{
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 9px;
+}
+.savebtn:hover{
+  background-color:rgb(232, 205, 210) ;
+  cursor: pointer;
+}
+
+.deleteIcon:hover{
+  cursor: pointer;
+}
